@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "2.7.1"
+  version: "2.7.2"
 
 package:
   name: runpodctl
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/runpod/runpodctl/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: ca2039cfabe54af9955ce42c9f2586c13e754eb4ce850277686fde7774991976
+  sha256: 2e97697ee3f5567fa0410da2ce4fd402474f01c9091c5712c6c63237102f107e
 
 build:
   number: 0
