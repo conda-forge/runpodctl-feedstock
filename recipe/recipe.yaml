@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "2.1.6"
+  version: "2.9.0"
 
 package:
   name: runpodctl
@@ -9,10 +9,10 @@ package:
 
 source:
   url: https://github.com/runpod/runpodctl/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 5e41c086ae39f345999fb7daf580622702c42d8f6033adf0f0b0973ea6ebcac2
+  sha256: eb0cd5851598fe208960222fe05004489e69459b452254204ccef08a74c0d3bc
 
 build:
-  number: 1
+  number: 0
   script:
     - go-licenses save . --save_path=license-files --ignore github.com/runpod/runpodctl
     - if: unix
